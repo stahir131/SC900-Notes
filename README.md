@@ -76,14 +76,31 @@ Hashing is often used to store passwords. Hackers can use brute-force dictionary
 **Basic compliance concepts**: Governance, Risk and Compliance(GRC)<br />
 Governance: is the system of rules, practices, and processes an organization uses to direct and control its activities.<br />
 Risk management is the process of identifying, assessing, and responding to threats or events that can impact company or customer objectives.<br />
- Compliance refers to the country/region, state or federal laws or even multi-national regulations that an organization must follow. This may include Data residency, data sovereignty and data privacy
+ Compliance refers to the country/region, state or federal laws or even multi-national regulations that an organization must follow. This may include Data residency, data sovereignty and data privacy.
 
+**Data residency**: Refers to physical locations where data can be stored, how and when it can be transferred, processes or accessed internationally.<br />
+**Data sovereignty**: Data is subject the laws and regulations of the country in which its physically collected, held or processed.<br />
+**Data privacy**: Providing notice and being transparent about the collection, processing, use, and sharing of personal data.
 
+**Part 2: Describe the capabilities of Microsoft Entra<br />**
+Types of Identities<br />
+**User identity**: These are employees and external users such as customers, vendors and partners. In Entra ID, user identities are characterized by how they authenticate and user type property. <br />
+Internal authentication: Useers has account on host organozation's Entra ID and authenticate to Entra ID. <br />
+External authentication: Users authenticate using an external Entra account of another Org, a social network identity or external identity provider.<br />
+User type property describes whether user is a guest or a member of the organization Entra tenant.<br />
+**Workload identities**: You assign to a software workload to enable it autheticate to and access other services and resources. Workload identities  are applications, service principals and managed identities.<br />
 
+Applications and service principals: This is an identity for an application. For to delegate its identity and access functions to Entra ID, it must register to enable its integration with Entra ID. Then a service principal is created in each Entra ID tenant where the app is used. <br />
+Manage identities: type of service principal that are managed automatically in micorosoft Entra ID and relief the stress off of app developers to manage credentials.
+![image](https://github.com/stahir131/SC900-Notes/assets/64047385/0f15debf-a5e7-4c16-8f4f-5abdd477d753)
 
-
-
-
+There are two types of managed identities: System-assigned and user-assigned<br />
+System-assigned is when managed identity is enabled directly on the resources and its tied to the lifecycle of the resource. When the resource is deleted the identity gets deleted as well.<br />
+User-assigned: This is when managed identity is created as a standalone Azure resource and then can be assigned to one or more instances of an Azure service. 
+- can be assigned to multiple VMs
+- its managed separately from the resources that use it.
+- deleting resources that use it does not delete the identity
+- Useful with multiple VMs with same set of permissions.
 
 
 
