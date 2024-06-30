@@ -7,6 +7,7 @@ There are four learning paths to prepare for the SC-900<br />
 
 
 **Part 1: Describe the concepts of security, compliance, and identity**<br />
+**Module 1**: Security and compliance concepts<br />
 Covered in this chapter are;<br />
 1. Shared responsibilty and defence in-depth<br />
 2. Zero-Trust model<br />
@@ -82,8 +83,17 @@ Risk management is the process of identifying, assessing, and responding to thre
 **Data sovereignty**: Data is subject the laws and regulations of the country in which its physically collected, held or processed.<br />
 **Data privacy**: Providing notice and being transparent about the collection, processing, use, and sharing of personal data.
 
+**Module 2**: Identity concepts<br />
+Identity is the way in which people and things are identified on your corporate network, and in the cloud.<br />
+**Authentication**: Authentication is the process of proving that a person is who they say they are.<br />
+**Authorization**: Once authenticated, this determines the level of access or permissions a user has to data and resources.
+
+
+
+
 
 **Part 2: Describe the capabilities of Microsoft Entra<br />**
+**Module 1**: Function and identity types of Microsoft Entra ID<br />
 Identity can be assigned to users, physical devices and software-based such as applications.<br />
 Types of Identities<br />
 **User identity**: These are employees and external users such as customers, vendors and partners. In Entra ID, user identities are characterized by how they authenticate and user type property. <br />
@@ -123,6 +133,7 @@ Hybrid identity is done through provisioning and synchronization.<br />
 5. Microsoft Entra multi-tenant organization
 
 
+**Module 2:**Authentication capabilities of Microsoft Entra ID<br />
 
 
 
