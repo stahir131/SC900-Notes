@@ -82,6 +82,7 @@ Risk management is the process of identifying, assessing, and responding to thre
 **Data sovereignty**: Data is subject the laws and regulations of the country in which its physically collected, held or processed.<br />
 **Data privacy**: Providing notice and being transparent about the collection, processing, use, and sharing of personal data.
 
+
 **Part 2: Describe the capabilities of Microsoft Entra<br />**
 Identity can be assigned to users, physical devices and software-based such as applications.<br />
 Types of Identities<br />
@@ -91,7 +92,7 @@ External authentication: Users authenticate using an external Entra account of a
 User type property describes whether user is a guest or a member of the organization Entra tenant.<br />
 **Workload identities**: You assign to a software workload to enable it autheticate to and access other services and resources. Workload identities  are applications, service principals and managed identities.<br />
 
-Applications and service principals: This is an identity for an application. For to delegate its identity and access functions to Entra ID, it must register to enable its integration with Entra ID. Then a service principal is created in each Entra ID tenant where the app is used. <br />
+Applications and service principals: This is an identity for an application. For apps to delegate its identity and access functions to Entra ID, it must register to enable its integration with Entra ID. Then a service principal is created in each Entra ID tenant where the app is used. <br />
 Manage identities: type of service principal that are managed automatically in micorosoft Entra ID and relief the stress off of app developers to manage credentials.
 ![image](https://github.com/stahir131/SC900-Notes/assets/64047385/0f15debf-a5e7-4c16-8f4f-5abdd477d753)
 
@@ -113,10 +114,11 @@ Hybrid identity is done through provisioning and synchronization.<br />
 1. Inter-directory provisioning is provisioning an identity between two different directory services systems.<br />
 2. Synchronization: Done to make sure identity information for on-prem users and groups is matching the cloud. These both are done using Entra cloud sync<br />
 **External identities**:<br />
-1. B2B collaboration: Typically represented as guest users to sign in to your Microsoft applications or other enterprise apps by using their preferred identity.B2B does not involve credentials to sign but rather they authenticate with their home organization or identity provider.There are various ways to add external users<br />
+1. B2B collaboration: Typically represented as guest users to sign in to your Microsoft applications or other enterprise apps by using their preferred identity.B2B does not require credentials to sign but rather they authenticate with their home organization or identity provider.The guests are created in your directory.There are various ways to add external users<br />
   a. Invite users to B2B collaboration using their Microsoft enta accounts, microsft accounts, or social identities that you enable.<br />
-  b. Use self-service sign up user flows to let external users sign up for applications themselves. you can customize to allow sign-up with a work, school or social identity. User info can be collected during sign-up process.<br />
-3. B2B direct connect: 
+  b. Use self-service sign up user flows to let external users sign up for applications themselves. You can customize to allow sign-up with a work, school or social identity. User info can be collected during sign-up process.<br />
+  c. Use Microsoft Entra entitlement management, an identity governance feature that lets you manage identity and access for external users at scale by automating access request workflows, access assignments, reviews, and expiration.<br />
+3. B2B direct connect: A new way to collaborate with other Microsoft Entra organizations using the Miccrosoft Teams shared channels. Here you create 2-way trust relationships with other Enrtra organizations to allow users to seamlessly sign in to your shared resources and vice-versa. The users here are not added as guests but are visible from within Teams shared channel and managed in Teams admin center.
 4. Microsoft Entra External ID for customers (preview)
 5. Microsoft Entra multi-tenant organization
 
