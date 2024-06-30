@@ -1,7 +1,7 @@
 There are four learning paths to prepare for the SC-900<br />
 
 **Part 1: Describe the concepts of security, compliance, and identity**<br />
-**Part 2: Describe the capabilities of Microsoft Entra<br />**
+**Part 2: Describe the capabilities of Microsoft Entra ID<br />**
 **Part 3: Describe the capabilities of Microsoft security solutions<br />**
 **Part 4: Describe the capabilities of Microsoft compliance solutions<br />**
 
