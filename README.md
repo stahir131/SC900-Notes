@@ -83,6 +83,7 @@ Risk management is the process of identifying, assessing, and responding to thre
 **Data privacy**: Providing notice and being transparent about the collection, processing, use, and sharing of personal data.
 
 **Part 2: Describe the capabilities of Microsoft Entra<br />**
+Identity can be assigned to users, physical devices and software-based such as applications.<br />
 Types of Identities<br />
 **User identity**: These are employees and external users such as customers, vendors and partners. In Entra ID, user identities are characterized by how they authenticate and user type property. <br />
 Internal authentication: Useers has account on host organozation's Entra ID and authenticate to Entra ID. <br />
@@ -101,6 +102,23 @@ User-assigned: This is when managed identity is created as a standalone Azure re
 - its managed separately from the resources that use it.
 - deleting resources that use it does not delete the identity
 - Useful with multiple VMs with same set of permissions.
+
+**Devive identity**: This can be set up in different ways<br />
+1. Microsoft Entra registered devices: For BYOD users to access your organization's resources. The devices register to Entra ID without requiring organizational account to sign in to the device.<br />
+2. Microsoft Entra joined: Organization owned devices joined to Entra ID using org account and then used to sign in to the device.<br />
+3. Microsoft Entra hybrid joined devices: To control devices that are AD and Entra ID joined.
+
+**Hybrid identity**: A combination of both on-premises and cloud environments.<br />
+Hybrid identity is done through provisioning and synchronization.<br />
+1. Inter-directory provisioning is provisioning an identity between two different directory services systems.<br />
+2. Synchronization: Done to make sure identity information for on-prem users and groups is matching the cloud. These both are done using Entra cloud sync<br />
+**External identities**:<br />
+1. B2B collaboration: Typically represented as guest users to sign in to your Microsoft applications or other enterprise apps by using their preferred identity.B2B does not involve credentials to sign but rather they authenticate with their home organization or identity provider.There are various ways to add external users<br />
+  a. Invite users to B2B collaboration using their Microsoft enta accounts, microsft accounts, or social identities that you enable.<br />
+  b. Use self-service sign up user flows to let external users sign up for applications themselves. you can customize to allow sign-up with a work, school or social identity. User info can be collected during sign-up process.<br />
+3. B2B direct connect: 
+4. Microsoft Entra External ID for customers (preview)
+5. Microsoft Entra multi-tenant organization
 
 
 
