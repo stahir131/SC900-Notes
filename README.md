@@ -86,7 +86,16 @@ Risk management is the process of identifying, assessing, and responding to thre
 **Module 2**: Identity concepts<br />
 Identity is the way in which people and things are identified on your corporate network, and in the cloud.<br />
 **Authentication**: Authentication is the process of proving that a person is who they say they are.<br />
-**Authorization**: Once authenticated, this determines the level of access or permissions a user has to data and resources.
+**Authorization**: Once authenticated, this determines the level of access or permissions a user has to data and resources.<br />
+**Identity as Primary security perimeter**: There are four fundamental pillars in an identity infrastucture<br />
+1. Administration: This is about the creation and management/governance of identities for users, devices, and services.<br />
+2. Authentication<br />
+3. Authorization<br />
+4. Auditing: Tracking who does what, when, where and how. Involves repoting, alerting and governance of identities<br />
+
+**Role of identity provider**:
+An identity provider creates, maintains, and manages identity information while offering authentication, authorization, and auditing services.
+
 
 
 
