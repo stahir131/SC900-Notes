@@ -93,8 +93,25 @@ Identity is the way in which people and things are identified on your corporate 
 3. Authorization<br />
 4. Auditing: Tracking who does what, when, where and how. Involves repoting, alerting and governance of identities<br />
 
-**Role of identity provider**:
+**Role of identity provider(IdP)**:<br />
 An identity provider creates, maintains, and manages identity information while offering authentication, authorization, and auditing services.
+Modern authentication is an umbrella term for authentication and authorization methods between a client, such as your laptop or phone, and a server, like a website or application.<br />
+In modern authentication, the client communicates with the IdP using username&password. When the identity is verified, the IdP issues a _security token_ that the client sends to the server.<br />
+The server validates the security token through its _trust relationship_ witht the identity provider. <br />
+Examples of idP are Microsoft Entra ID, Google, Amazon, LinkedIn, GitHub.<br />
+**Single sign-on**: idP and modern authentication are capable of single sign-on. With SSO, the user logs in once and that credential is used to access multiple applications or resources. When you set up SSO between multiple identity providers, it's called federation.<br />
+**Concept of directory services and Active Directory**<br />
+Active Directory Domain Services(AD DS) stores information about the members of the domain, including devices, users, verifies their credentilas and define their access rights.<br />
+AD DS only supports on-prem infrastructure components, it does not support mobile devices, SaaS apps or line of business apps that require modern authentication methods.<br />
+**Concept of federation**<br />
+Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between the respective domain’s identity provider.
+
+
+
+
+
+
+
 
 
 
