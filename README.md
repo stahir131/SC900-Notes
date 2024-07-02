@@ -85,9 +85,13 @@ Risk management is the process of identifying, assessing, and responding to thre
 
 **Module 2**: Identity concepts<br />
 Identity is the way in which people and things are identified on your corporate network, and in the cloud.<br />
+
 **Authentication**: Authentication is the process of proving that a person is who they say they are.<br />
+
 **Authorization**: Once authenticated, this determines the level of access or permissions a user has to data and resources.<br />
+
 **Identity as Primary security perimeter**: There are four fundamental pillars in an identity infrastucture<br />
+
 1. Administration: This is about the creation and management/governance of identities for users, devices, and services.<br />
 2. Authentication<br />
 3. Authorization<br />
@@ -99,6 +103,7 @@ Modern authentication is an umbrella term for authentication and authorization m
 In modern authentication, the client communicates with the IdP using username&password. When the identity is verified, the IdP issues a _security token_ that the client sends to the server.<br />
 The server validates the security token through its _trust relationship_ witht the identity provider. <br />
 Examples of idP are Microsoft Entra ID, Google, Amazon, LinkedIn, GitHub.<br />
+
 **Single sign-on**: idP and modern authentication are capable of single sign-on. With SSO, the user logs in once and that credential is used to access multiple applications or resources. When you set up SSO between multiple identity providers, it's called federation.<br />
 **Concept of directory services and Active Directory**<br />
 Active Directory Domain Services(AD DS) stores information about the members of the domain, including devices, users, verifies their credentilas and define their access rights.<br />
@@ -126,6 +131,7 @@ Types of Identities<br />
 Internal authentication: Useers has account on host organozation's Entra ID and authenticate to Entra ID. <br />
 External authentication: Users authenticate using an external Entra account of another Org, a social network identity or external identity provider.<br />
 User type property describes whether user is a guest or a member of the organization Entra tenant.<br />
+
 **Workload identities**: You assign to a software workload to enable it autheticate to and access other services and resources. Workload identities  are applications, service principals and managed identities.<br />
 
 Applications and service principals: This is an identity for an application. For apps to delegate its identity and access functions to Entra ID, it must register to enable its integration with Entra ID. Then a service principal is created in each Entra ID tenant where the app is used. <br />
@@ -149,6 +155,7 @@ User-assigned: This is when managed identity is created as a standalone Azure re
 Hybrid identity is done through provisioning and synchronization.<br />
 1. Inter-directory provisioning is provisioning an identity between two different directory services systems.<br />
 2. Synchronization: Done to make sure identity information for on-prem users and groups is matching the cloud. These both are done using Entra cloud sync<br />
+
 **External identities**:<br />
 1. B2B collaboration: Typically represented as guest users to sign in to your Microsoft applications or other enterprise apps by using their preferred identity.B2B does not require credentials to sign but rather they authenticate with their home organization or identity provider.The guests are created in your directory.There are various ways to add external users<br />
   a. Invite users to B2B collaboration using their Microsoft enta accounts, microsft accounts, or social identities that you enable.<br />
@@ -159,15 +166,42 @@ Hybrid identity is done through provisioning and synchronization.<br />
 5. Microsoft Entra multi-tenant organization
 
 
-**Module 2:**Authentication capabilities of Microsoft Entra ID<br />
+**Module 2**:Authentication capabilities of Microsoft Entra ID<br />
+**Phone**: Microsoft Entra ID supports two options for phone-based authentication.<br />
+SMS-based authentication: SMS can be used as a primary form of authentication where users don't require username and passowrd. They enter their registered number to receive a code to sign in.<br />
+SMS can also be used as a secondary form of authentication during self-service password or Entra ID MFA.
 
+Voice call verification: User receives a phone call to authenticate.
 
+**OATH**: Open Authentication is an open standard that specifies how time-based, one-time password (TOTP) codes are generated.
 
+Software OATH tokens are typically applications. Microsoft Entra ID generates the secret key, or seed, that's input into the app and used to generate each OTP.
 
+OATH TOTP hardware tokens are devices that look like a key fob that displays a code and refreshes every 30/60 seconds
 
+Passwordless authentication: The use of biometrics with Windows Hello for Business or a FIDO2 security key.
 
+Windows Hello for Business:As a passwordless authentication method, Windows Hello for Business serves as a primary or secondary form of authentication
 
-
-
+FIDO2: Fast Identity Online is an open standard for passwordless authentication. It uses an external security key or a platform key built into a device. 
+They are unphishable<br />
+They incoporate web autheutication(WebAuthn)<br />
+Typically USB devices or bluetooth or NFC based devices
  
+Microsoft Authenticator app: Can be user as a primary or secondary form of authentication
+
+Certificate-based authentication: This is only supported as a primary form of authentication. It uses X.509 certificates
+
+Security defaults and multifactor authentication<br />
+
+
+
+
+
+
+
+
+
+
+
    
