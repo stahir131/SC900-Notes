@@ -112,17 +112,6 @@ AD DS only supports on-prem infrastructure components, it does not support mobil
 Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between the respective domain’s identity provider.
 
 
-
-
-
-
-
-
-
-
-
-
-
 **Part 2: Describe the capabilities of Microsoft Entra<br />**
 **Module 1**: Function and identity types of Microsoft Entra ID<br />
 Identity can be assigned to users, physical devices and software-based such as applications.<br />
@@ -193,9 +182,34 @@ Microsoft Authenticator app: Can be user as a primary or secondary form of authe
 Certificate-based authentication: This is only supported as a primary form of authentication. It uses X.509 certificates
 
 Security defaults and multifactor authentication<br />
+Security defaults are a set of basic identity security mechanisms recommende by Microsoft. <br />
+Includes enforcing MFA registration  for all users<br />
+Forces admin to use MFA<br />
+Requires all users to complete MFA
 
+Self-service password reset: It allows users to change/reset passwords without admin or help desk.
 
+The following authentication methods are available for SSPR:
 
+Mobile app notification
+Mobile app code
+Email
+Mobile phone
+Office phone
+Security questions
+
+Password write-back allows users to use their updated credentials with on-premises devices and applications without a delay.
+
+**Password protection and management capabilities**<br />
+Password protection is a feature of Microsoft Entra ID that reduces the risk of users setting weak passwords. Microsoft Entra password protection detects and blocks known weak passwords and their variants, and can also block other weak terms that are specific to your organization.<br />
+
+Global banned password list: A global banned password list with known weak passwords is automatically updated and enforced by Microsoft.<br />
+
+Custom banned password lists: Admin can create a custom bannes password lists to support security needs. These can include brand names, products, locations etc.<br />
+
+Protecting against password spray a type of brute force attack where a malicious actor attempts the same password on many accounts before moving on to another one and repeating the process. Microsoft Entra password protection efficiently blocks all known weak passwords likely to be used in password spray attacks.<br />
+
+Hybrid security: Admins can integrate Microsoft Entra password protection within an on-premises Active Directory environment. A component installed in the on-prem environment receives athe global banned password lists and custom passwoed protection policies from Entra ID. AD uses this to process password changes.
 
 
 
