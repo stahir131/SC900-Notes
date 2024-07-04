@@ -211,6 +211,24 @@ Protecting against password spray a type of brute force attack where a malicious
 
 Hybrid security: Admins can integrate Microsoft Entra password protection within an on-premises Active Directory environment. A component installed in the on-prem environment receives athe global banned password lists and custom passwoed protection policies from Entra ID. AD uses this to process password changes.
 
+**Module 3**: Access management capabilities of Microsoft Entra ID<br />
+Conditional access: Feature in entar ID that provides an extra later of security before allowing authenticated users to access data or other assets. CA policy analyses signals including user, location, device, application, and risk to automate decisions for authorizing access to resources(apps and data).
+
+![2-conditional-access-policies](https://github.com/stahir131/SC900-Notes/assets/64047385/a02d2c12-7251-453a-9fac-55d097d58637)
+
+Conditional access policy consists of two components, assignments and access controls.<br />
+Assignments portion controls the who, what, and where of the Conditional Access policy.<br />
+Access controls: This decides whether to grant or block access or whether to require extra verification or apply a session control to enable a limited experience.
+
+
+
+
+
+
+
+
+
+
 
 
 
