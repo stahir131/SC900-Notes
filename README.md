@@ -218,11 +218,25 @@ Conditional access: Feature in entar ID that provides an extra later of security
 
 Conditional access policy consists of two components, assignments and access controls.<br />
 Assignments portion controls the who, what, and where of the Conditional Access policy.<br />
-Access controls: This decides whether to grant or block access or whether to require extra verification or apply a session control to enable a limited experience.
+Access controls: This decides whether to grant or block access or whether to require extra verification or apply a session control to enable a limited experience(like blocking download, cut, copy and print for sensitive documents).
 
+Microsoft Entra roles and role-based access control (RBAC): Managing access  using Entra built-in and custom roles.<br />
+Built-in roles: Fixed set of permissions. Examples are **Global admin, User admin, Billing admin**<br />
 
+Custom roles: A custom role definition is a collection of permissions that you choose from a preset list. A custom role can be assigned at organization-wide scope, meaning the role member has the role permissions over all resources. A custom role can also be assigned at an object scope. An example of an object scope would be a single application.<br />
+Custom roles require a Microsoft Entra ID P1 or P2 license.
 
+There are three broard categories<br />
+Microsoft Entra specific roles: : Manages resources in Microsoft Entra only.<br />
+Service-specific roles: <br />
+Cross-service roles: Roles witin Enta ID that span services. Example, Security admin that grant access across multiple security services within M365. <br />
 
+Difference between Microsoft Entra RBAC and Azure RBAC.<br />
+
+    Microsoft Entra RBAC - Microsoft Entra roles control access to Microsoft Entra resources such as users, groups, and applications.
+    Azure RBAC - Azure roles control access to Azure resources such as virtual machines or storage using Azure Resource Management.
+
+**Module 4**: identity protection and governance capabilities of Microsoft Entra
 
 
 
