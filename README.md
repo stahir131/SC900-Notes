@@ -236,8 +236,30 @@ Difference between Microsoft Entra RBAC and Azure RBAC.<br />
     Microsoft Entra RBAC - Microsoft Entra roles control access to Microsoft Entra resources such as users, groups, and applications.
     Azure RBAC - Azure roles control access to Azure resources such as virtual machines or storage using Azure Resource Management.
 
-**Module 4**: identity protection and governance capabilities of Microsoft Entra
+**Module 4**: identity protection and governance capabilities of Microsoft Entra<br />
+In this module, you'll learn how to:
 
+Describe the capabilities of Microsoft Entra ID Governance.<br />
+Describe Privileged Identity Management (PIM).<br />
+Describe the capabilities of Microsoft Entra ID Protection.<br />
+Describe permissions management.<br />
+Describe Microsoft Entra ID Governance: ID Governance gives organizations the ability to do the following tasks:<br />
+Govern the identity lifecycle.
+Govern access lifecycle.
+Secure privileged access for administration.<br />
+Identity lifecycle: Some organizations model the "join, move, and leave" process. Join: A new identity may need to be created when a new user joined an organization.<br />
+Move: Identity may be moved when a user moves between organizational boundaries.<br />
+Leave: Identity removed when a user leaves an organization.
+
+![image](https://github.com/stahir131/SC900-Notes/assets/64047385/dc1e6bae-4b3e-4f38-ba9d-dd68c0f3d0d6)
+
+Microsoft Entra ID P1 or P2 offers integration with cloud-based HR systems. When a new employee is added to an HR system, Microsoft Entra ID can create a corresponding user account.<br />
+
+Access lifecycle: Access lifecycle is the process of managing access throughout the user’s organizational life. Organizations can autoamte access lifecycle process by using dynamic groups.<br />
+
+Privileged access lifecycle:<br />
+Microsoft Entra Privileged Identity Management (PIM) provides extra controls tailored to securing access rights.<br />
+Access reviews: Microsoft Entra access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.
 
 
 
