@@ -269,11 +269,24 @@ Microsoft Entra terms of use: Microsoft Entra terms of use allow information to 
 **Capabilities of Privileged identity Management**<br />
 PIM is a service of Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. <br />
 - PIM mitigates the risks of excessive, unnecessary access permissions.
-- skdjdkd
+- PIM is Just in time, providing access only when needed, and not before
+- Time-bound, by assigning start and end dates that indicate when a user can access resources.
+- Approval-based, requiring specific approval to activate privileges.
+- Visible, sending notifications when privileged roles are activated.
+- Auditable, allowing a full access history to be downloaded.
+- PIM can be used to govern access to Entra roles, Azure roles, Azure SQL, key vault, Intune and so on.<br />
+PIM reduces the chance of a malicious actor getting access by minimizing the number of people who have access to secure information or resources.<br />
+PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend/renew.<br />
+**Microsoft Entra ID Protection** is used to :
+  - automate the detection and remediation of identity-based risks
+  - Investigate risks using data in theportal
+  - Exports risk detection data to 3rd-party utilities for further analysis.
+  - A user risk represents the probability that a given identity or account is compromised.<br />
 
-
-
-
+Workload identity: is an identity that allows an application or service principal access to resources.
+- Can’t perform multifactor authentication.
+- Often have no formal lifecycle process.
+- Need to store their credentials or secrets somewhere.
 
 
 
