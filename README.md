@@ -289,7 +289,22 @@ PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend
 **Workload identity**: is an identity that allows an application or service principal access to resources.
 - Can’t perform multifactor authentication.
 - Often have no formal lifecycle process.
-- Need to store their credentials or secrets somewhere.
+- Need to store their credentials or secrets somewhere.<br />
+**Microsoft Entra Permissions Management**:
+  - It is a cloud infrastructure entitlement management(CIEM)
+  - Provides visibilty and control over permissions for any identity and any resource in Microsoft Azure, AWS and Google cloud platform(GCP)
+  - It address the zero trust principle of least privilege access.
+  - It dicovers ,automatically right-sizes(remediates) and monitors unused and excessive permissions.<br />
+**Microsoft Entra Verified ID**:
+- is a managed verifiable credentials service based on open standards.
+-  automates verification of identity credentials and enables privacy-protected interactions between organizations and users.
+-  It serves as a digital identity
+ 
+
+
+
+
+
 
 
 
