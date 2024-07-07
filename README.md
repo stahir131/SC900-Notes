@@ -236,7 +236,7 @@ Difference between Microsoft Entra RBAC and Azure RBAC.<br />
     Microsoft Entra RBAC - Microsoft Entra roles control access to Microsoft Entra resources such as users, groups, and applications.
     Azure RBAC - Azure roles control access to Azure resources such as virtual machines or storage using Azure Resource Management.
 
-**Module 4**: identity protection and governance capabilities of Microsoft Entra<br />
+**Module 4: identity protection and governance capabilities of Microsoft Entra**<br />
 In this module, you'll learn how to:
 
 Describe the capabilities of Microsoft Entra ID Governance.<br />
@@ -247,7 +247,7 @@ Describe Microsoft Entra ID Governance: ID Governance gives organizations the ab
 Govern the identity lifecycle.
 Govern access lifecycle.
 Secure privileged access for administration.<br />
-Identity lifecycle: Some organizations model the "join, move, and leave" process. Join: A new identity may need to be created when a new user joined an organization.<br />
+**Identity lifecycle**: Some organizations model the "join, move, and leave" process. Join: A new identity may need to be created when a new user joined an organization.<br />
 Move: Identity may be moved when a user moves between organizational boundaries.<br />
 Leave: Identity removed when a user leaves an organization.
 
@@ -255,16 +255,19 @@ Leave: Identity removed when a user leaves an organization.
 
 Microsoft Entra ID P1 or P2 offers integration with cloud-based HR systems. When a new employee is added to an HR system, Microsoft Entra ID can create a corresponding user account.<br />
 
-Access lifecycle: Access lifecycle is the process of managing access throughout the user’s organizational life. Organizations can autoamte access lifecycle process by using dynamic groups.<br />
+**Access lifecycle**: Access lifecycle is the process of managing access throughout the user’s organizational life. Organizations can autoamte access lifecycle process by using dynamic groups.<br />
 
-Privileged access lifecycle:<br />
+**Privileged access lifecycle**:<br />
 Microsoft Entra Privileged Identity Management (PIM) provides extra controls tailored to securing access rights.<br />
-Access reviews: Microsoft Entra access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.<br />
+**Access reviews**: Microsoft Entra access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.<br />
 Multi-stage access reviews: allow you and your organization to enable complex workflows to meet recertification and audit requirements calling for multiple reviewers to attest to access for users in a particular sequence.
 
-Entitlement management: is an identity governance feature that enables organizations to manage the identity and access lifecycle at scale. It automates access request workflows, access assignments, reviews and expiration.<br />
+**Entitlement management:** is an identity governance feature that enables organizations to manage the identity and access lifecycle at scale. It automates access request workflows, access assignments, reviews and expiration.<br />
 Entitlement management uses access packages to manage access to resources.<br />
-Microsoft Entra terms of use: Microsoft Entra terms of use allow information to be presented to users, before they access data or an application. This is presented in a PDF using your own content such as existing contract document. Conditional access policies are used to require a terms of use statement being displayed and ensuring users has agreed tot hose terms before accessing application. 
+- Entitlement management is well suited to handling project-based access needs.
+-  Entitlement management automates access requests, access assignments, reviews, and expiration for bundles of resources relevant to a project.<br />
+
+**Microsoft Entra terms of use**: Microsoft Entra terms of use allow information to be presented to users, before they access data or an application. This is presented in a PDF using your own content such as existing contract document. Conditional access policies are used to require a terms of use statement being displayed and ensuring users has agreed tot hose terms before accessing application. 
 
 **Capabilities of Privileged identity Management**<br />
 PIM is a service of Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. <br />
@@ -283,7 +286,7 @@ PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend
   - Exports risk detection data to 3rd-party utilities for further analysis.
   - A user risk represents the probability that a given identity or account is compromised.<br />
 
-Workload identity: is an identity that allows an application or service principal access to resources.
+**Workload identity**: is an identity that allows an application or service principal access to resources.
 - Can’t perform multifactor authentication.
 - Often have no formal lifecycle process.
 - Need to store their credentials or secrets somewhere.
