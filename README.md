@@ -259,10 +259,17 @@ Access lifecycle: Access lifecycle is the process of managing access throughout 
 
 Privileged access lifecycle:<br />
 Microsoft Entra Privileged Identity Management (PIM) provides extra controls tailored to securing access rights.<br />
-Access reviews: Microsoft Entra access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.
+Access reviews: Microsoft Entra access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.<br />
+Multi-stage access reviews: allow you and your organization to enable complex workflows to meet recertification and audit requirements calling for multiple reviewers to attest to access for users in a particular sequence.
 
+Entitlement management: is an identity governance feature that enables organizations to manage the identity and access lifecycle at scale. It automates access request workflows, access assignments, reviews and expiration.<br />
+Entitlement management uses access packages to manage access to resources.<br />
+Microsoft Entra terms of use: Microsoft Entra terms of use allow information to be presented to users, before they access data or an application. This is presented in a PDF using your own content such as existing contract document. Conditional access policies are used to require a terms of use statement being displayed and ensuring users has agreed tot hose terms before accessing application. 
 
-
+**Capabilities of Privileged identity Management**<br />
+PIM is a service of Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. <br />
+- PIM mitigates the risks of excessive, unnecessary access permissions.
+- skdjdkd
 
 
 
