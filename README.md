@@ -300,7 +300,7 @@ PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend
 -  automates verification of identity credentials and enables privacy-protected interactions between organizations and users.
 -  It serves as a digital identity
  
-
+**Part 3: Describe the capabilities of Microsoft security solutions **
 
 
 
