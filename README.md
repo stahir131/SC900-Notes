@@ -308,6 +308,48 @@ PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend
 
 **Module 1**: Core Infrastructure security services in Azure<br />
 Azure DDoS protection<br />
+DDoS attack is used to overwhelm resources on your applications and servers making them unusable for genuine users.
+
+Three most frequent types of DDoS attack are:
+- Volumetric attacks: Volume-based attacks that flood the network layer with seemingly legitimate traffic to overwhelm the available bandwidth. Legitimate traffic can't get through.
+- Protocol attacks: Exhaust the server resources with false protocol requests that exploit weaknesses in layer 3(network) and layer 4(transport) protocols.
+- Resource(application) layer attacks: Target web application packets, to disrupt the transmission of data between hosts.
+
+- Azure DDoS protection protects at layer 3 and layer 4.
+Azure DDoS protection supports two tier types:
+- DDoS Network Protection: Automatically to protect specific Azure resources in a virtual network.
+- DDoS IP Protection: Its a pay-per-protected IP model.
+- For web applications protection at layer 7, you need to add Web Application Firewall(WAF) offering.<br />
+**Azure Firewall**: Managed, cloud-based network security service that provides threat protection for cloud workloads and resources running in Azure. Best practice is to deploy it on a centralized virtual network and then route all virtual and on-premises networks through it making it easy to centrally control all VNets across different subsriptions.<br />
+**Web Application Firewall** Provides a centralized protection of web applications from exploits and vulnerabilities. it protects DDoS attack at the application layer such as HTTP Floods.<br />
+**Network segmentation in Azure**: This enables
+  - to group related assets together
+  - isolation of resources to provide spread of attacks
+  - Governance policies set by the organization
+
+**Azure Virtual Network**: Enables organizations to segment their network.
+- Org can create multiple virtual networks
+- No traffic allowed across Vnets or inbound to the Vnet by default unless its explicitly provisioned. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
