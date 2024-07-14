@@ -300,7 +300,14 @@ PIM Genral workflow: These steps are: assign, activate, approve/deny, and extend
 -  automates verification of identity credentials and enables privacy-protected interactions between organizations and users.
 -  It serves as a digital identity
  
-**Part 3: Describe the capabilities of Microsoft security solutions **
+**Part 3: Describe the capabilities of Microsoft security solutions **<br />
+- **Module 1**: Core Infrastructure security services in Azure
+- **Module 2**: Security management capabilities in Azure
+- **Module 3**: Security capabilities of Microsoft Sentinel
+- **Module 4**: Threat protection with Microsoft Defender XDR
+
+**Module 1**: Core Infrastructure security services in Azure<br />
+Azure DDoS protection<br />
 
 
 
