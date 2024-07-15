@@ -341,7 +341,18 @@ Azure DDoS protection supports two tier types:
 - NSG provides distributed network layer traffic filtering **within** vnets in each subscription.
 - Azure firewall is a stateful, centralized network firewall as-a-service that provides network and application-level protection **across** different subscriptions and vnets.
 
+**Azure Bastion**<br />
+Azure Bastion protects your virtual machines by secure and seamless RDP & SSH connectivity without the need to expose them through public IP addresses
+- Bastion is per virtual network with support for network peering and not per account/subscription or VM.
+- Once its provisioned in the vnet, the RDP/SSH service is available to all VMs in the same VNet, and peered VNets.<br />
 
+**Key benefits of Azure Bastion**
+- RDP and SSH directly in Azure portal:
+- Remote session over TLS and firewall traversal for RDP/SSH: From the Azure portal, a connection to the VM, will open an HTML5 based web client that is automatically streamed to your local device.
+- No Public IP required on the Azure VM: It uses private IP on the VM
+- No hassle managing NSGs
+- Protection against port scanning: Azure Bastion is a fully platform-managed PaaS service.
+- Hardening in one place to protect against zero-day exploits:
 
 
 
