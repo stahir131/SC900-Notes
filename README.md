@@ -331,9 +331,11 @@ Azure DDoS protection supports two tier types:
 - Org can create multiple virtual networks
 - No traffic allowed across Vnets or inbound to the Vnet by default unless its explicitly provisioned. 
 
-
-
-
+**Azure Network Security Groups**: NSG lets you filter network traffic to and from Azure resources in an Azure virtual network.
+- NSG consists of traffic filtering rules
+- Only one NSG can be associated to each vnet subnet and network interface in a vm.
+- An NSG can be associated to as many subnets and interface
+- NSG consists of inbound and outbound rules that are evaluated using five information points: **source**, **source port**, **desination**,**destination port**,**protocol**
 
 
 
