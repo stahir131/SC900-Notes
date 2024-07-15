@@ -335,8 +335,11 @@ Azure DDoS protection supports two tier types:
 - NSG consists of traffic filtering rules
 - Only one NSG can be associated to each vnet subnet and network interface in a vm.
 - An NSG can be associated to as many subnets and interface
-- NSG consists of inbound and outbound rules that are evaluated using five information points: **source**, **source port**, **desination**,**destination port**,**protocol**
+- NSG consists of inbound and outbound rules that are evaluated using five information points: **source**, **source port**, **desination**, **destination port**, **protocol**<br />
 
+**NSG vs Azure Firewall**<br />
+- NSG provides distributed network layer traffic filtering **within** vnets in each subscription.
+- Azure firewall is a stateful, centralized network firewall as-a-service that provides network and application-level protection **across** different subscriptions and vnets.
 
 
 
