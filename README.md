@@ -354,9 +354,15 @@ Azure Bastion protects your virtual machines by secure and seamless RDP & SSH co
 - Protection against port scanning: Azure Bastion is a fully platform-managed PaaS service.
 - Hardening in one place to protect against zero-day exploits:
 
-
-
-
+**Azure Key Vault**: It  is a cloud service for securely storing and accessing secrets such as **API keys, passwords, certificates or cryographic keys**.<br />
+There are two service tiers:
+- Standard: Encrypts with a software key
+- Premium: Includes hardware security module(HSM)-protected keys.
+**Key benefits of Azure Key Vault**
+  - Centralize application secrets
+  - Securely store secrets and keys
+  - Monitor access and use
+  - Simplified administration of application secrets.
 
 
 
